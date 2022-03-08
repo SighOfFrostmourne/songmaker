@@ -65,7 +65,7 @@ module.exports = {
     plugins: [
         new webpack.ProgressPlugin(),
         new HtmlWebpackPlugin({
-            title: 'Song Maker',
+            title: 'Meta Music',
             favicon: 'images/favicon.png'
         }),
         new CleanWebpackPlugin(),

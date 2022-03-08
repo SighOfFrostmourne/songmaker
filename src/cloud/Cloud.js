@@ -24,7 +24,7 @@ export class Cloud {
         } else {
             let editLink = document.createElement('a')
             editLink.id = 'edit-link'
-            editLink.textContent = 'Edit with Song Maker'
+            editLink.textContent = 'Edit with Meta Music'
             editLink.setAttribute('target', '_blank')
             editLink.setAttribute('href', `${SITE_URL_PATH}/song/` + id)
             document.body.appendChild(editLink)

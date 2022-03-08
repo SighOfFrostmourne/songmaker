@@ -40,6 +40,6 @@ export class Url extends EventEmitter {
     }
     clear() {
         this.currentURL = `${SITE_URL_PATH}/`
-        window.history.pushState({}, `Song Maker`, this.currentURL)
+        window.history.pushState({}, `Meta Music`, this.currentURL)
     }
 }

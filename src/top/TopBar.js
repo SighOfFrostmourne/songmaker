@@ -125,7 +125,7 @@ export class TopBar extends EventEmitter {
 
         this.logo = document.createElement('div')
         this.logo.id = 'header-logo'
-        this.logo.textContent = 'Song Maker'
+        this.logo.textContent = 'Meta Music'
         this.container.appendChild(this.logo)
     }
 }

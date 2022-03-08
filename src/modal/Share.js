@@ -89,7 +89,7 @@ export class ShareModal extends Modal {
         this.setTryCopy('copy-link', '.short-url')
         this.setTryCopy('copy-iframe', '.iframe-code')
         document.getElementById('share-facebook').addEventListener('click', () => {
-            const text = 'Check out this song I created with Song Maker%20%23songmaker%20%23chromemusiclab'
+            const text = 'Check out this song I created with Meta Music%20%23songmaker%20%23chromemusiclab'
             const fbURL = `https://www.facebook.com/sharer.php?u=${this.shortUrl}&quote=${text}`
             this.popup(fbURL, 570, 520)
 
@@ -97,7 +97,7 @@ export class ShareModal extends Modal {
         })
 
         document.getElementById('share-twitter').addEventListener('click', () => {
-            const text = 'Check out this song I created with Song Maker → ' + this.shortUrl + '%20%23songmaker%20%23chromemusiclab'
+            const text = 'Check out this song I created with Meta Music → ' + this.shortUrl + '%20%23songmaker%20%23chromemusiclab'
             const twitURL = `https://twitter.com/intent/tweet?text=${text}`
             this.popup(twitURL, 253, 600)
 

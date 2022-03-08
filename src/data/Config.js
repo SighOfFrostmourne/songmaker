@@ -1,4 +1,4 @@
-export const TITLE = 'Song Maker'
+export const TITLE = 'Meta Music'
 
 export const PulsesPerQuarter = 960
 

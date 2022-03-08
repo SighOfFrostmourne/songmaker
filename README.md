@@ -1,5 +1,5 @@
 ## Prerequisites
-- Song Maker requires node, npm, yarn and webpack to build
+- Meta Music requires node, npm, yarn and webpack to build
 
 #### Install webpack
 ```sh
